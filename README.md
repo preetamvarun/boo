@@ -7,6 +7,7 @@
   <li>CSS</li>
   <li>React</li>
   <li>Spring Boot</li>
+  <li>MySql</li>
 </ul>
 
 
