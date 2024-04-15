@@ -12,6 +12,11 @@ when we specify @ComponentScan spring boot scans for all those classes that are 
 It will creates beans which are then managed by the spring IOC container.
 */
 
+/*
+SpringApplication.run() method basically creates a configurable application context which is also known as spring application context and returns it. 
+This context contains all the beans that are managed by the spring in our application
+*/
+
 @SpringBootApplication
 public class BookApplication {
 
