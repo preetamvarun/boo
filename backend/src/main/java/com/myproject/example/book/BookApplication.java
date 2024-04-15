@@ -4,7 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /*
-@SpringBootApplicaiton = @Configuration + @EnableAutoConfiguration + @ComponentScan
+@SpringBootApplicaiton = @Configuration + @EnableAutoConfiguration + @ComponentScan. The class annotated with this annotation serves as an 
+entry point for the entire application. This is the place where spring boot initializes, configures and runs the application.
+
+A Bean a object that is managed by the spring container.
 
 @Configuration is a class level annotation that indicates that this class contains one or more bean methods that returns a bean which is managed by the container.
 @EnableAutoConfiguration figurest out what are all the necessary configurations that this particular app needs to start and does that.
