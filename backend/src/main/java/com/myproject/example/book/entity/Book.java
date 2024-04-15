@@ -10,11 +10,11 @@ package com.myproject.example.book.entity;
   Student s = entityManager.find(Student.class, id);
 */
 
-
-
 import jakarta.persistence.*;
 @Entity
+/* Entity specifies these class instances are the ones that are persisted and retrieved from the database.*/
 @Table(name = "books")
+  /*The table annotation maps the java class to the corrensponding table in the database.*/
 public class Book {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -29,11 +29,11 @@ public class Book {
 
     @Column(name = "page_count")
     private int pageCount;
-
+  
     public Book(){
 
     }
-    
+  
     public Book(int id, String title, String authorName, int pageCount) {
         Id = id;
         Title = title;
